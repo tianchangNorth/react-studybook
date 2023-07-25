@@ -12,7 +12,8 @@
 // import ImmutableState from "./components/11_状态不可变"
 // import Immermethods from "./components/12_immer操作不可变对象"
 // import InertState from "./components/13_惰性初始化状态的值"
-import Father from "./components/14_状态提升"
+// import Father from "./components/14_状态提升"
+import ComputedState from "./components/15_利用状态产生计算变量"
 export default function App() {
     return (  
     <>
@@ -30,7 +31,8 @@ export default function App() {
         {/* <ImmutableState></ImmutableState> */}
         {/* <Immermethods></Immermethods> */}
         {/* <InertState></InertState> */}
-        <Father></Father>
+        {/* <Father></Father> */}
+        <ComputedState></ComputedState>
     </>
   )
 }
