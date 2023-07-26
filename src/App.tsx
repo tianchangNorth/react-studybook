@@ -13,7 +13,8 @@
 // import Immermethods from "./components/12_immer操作不可变对象"
 // import InertState from "./components/13_惰性初始化状态的值"
 // import Father from "./components/14_状态提升"
-import ComputedState from "./components/15_利用状态产生计算变量"
+// import ComputedState from "./components/15_利用状态产生计算变量"
+import Todos from "./components/16_todos案例"
 export default function App() {
     return (  
     <>
@@ -32,7 +33,8 @@ export default function App() {
         {/* <Immermethods></Immermethods> */}
         {/* <InertState></InertState> */}
         {/* <Father></Father> */}
-        <ComputedState></ComputedState>
+        {/* <ComputedState></ComputedState> */}
+        <Todos></Todos>
     </>
   )
 }
